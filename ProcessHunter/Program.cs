@@ -34,7 +34,7 @@ while (true)
     }
     
     Console.WriteLine($"Waiting for timeout");
-    //await Task.Delay(timeout);
+    await Task.Delay(timeout);
 }
 
 //Console.WriteLine("\nPress enter...");
