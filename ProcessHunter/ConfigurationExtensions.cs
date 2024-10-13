@@ -2,7 +2,7 @@ using Microsoft.Extensions.Configuration;
 
 namespace ProcessHunter;
 
-static class ConfigurationExtensions
+internal static class ConfigurationExtensions
 {
     public static string GetMainProcessName(this IConfiguration config)
     {
